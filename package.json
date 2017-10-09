@@ -1,0 +1,42 @@
+{
+  "name": "renovate-config-tunnckocore",
+  "version": "0.2.0",
+  "description": "Renovate Shareable config for @tunnckoCore organization",
+  "repository": "tunnckoCore/renovate-config-tunnckocore",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (https://i.am.charlike.online)",
+  "nspId": "todo",
+  "scripts": {},
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "renovate",
+    "renovate-app",
+    "renovateapp",
+    "config",
+    "shareable",
+    "shareable config",
+    "shareable-config"
+  ],
+  "renovate-config": {
+    "default": {
+      "enabled": true,
+      "pinVersions": true,
+      "unpublishSafe": false,
+      "ignoreUnstable": false,
+      "respectLatest": true,
+      "rebaseStalePrs": true,
+      "semanticCommits": true,
+      "labels": [
+        "deps",
+        "renovate"
+      ],
+      "automerge": "minor",
+      "automergeType": "pr",
+      "prCreation": "not-pending",
+      "ignoreDeps": [
+        "semantic-release"
+      ]
+    }
+  }
+}
