@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-tunnckocore",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Renovate Shareable config for @tunnckoCore organization",
   "repository": "tunnckoCore/renovate-config-tunnckocore",
   "author": "Charlike Mike Reagent <@tunnckoCore> (https://i.am.charlike.online)",
@@ -28,7 +28,7 @@
         ":automergeMajor",
         ":automergePr",
         ":maintainLockFilesWeekly",
-        ":unpublishSafe"
+        ":unpublishSafeDisabled"
       ],
       "rebaseStalePrs": true,
       "semanticCommits": true,
