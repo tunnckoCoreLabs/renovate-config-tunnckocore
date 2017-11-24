@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-tunnckocore",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Renovate Shareable config for @tunnckoCore organization",
   "repository": "tunnckoCore/renovate-config-tunnckocore",
   "author": "Charlike Mike Reagent <@tunnckoCore> (https://i.am.charlike.online)",
@@ -23,7 +23,7 @@
       "extends": [
         "config:base",
         ":onlyNpm",
-        ":pinOnlyDevDependencies",
+        ":preserveSemverRanges",
         ":prNotPending",
         ":automergeMajor",
         ":automergePr",
