@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-tunnckocore",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Renovate Shareable config for @tunnckoCore organization",
   "repository": "tunnckoCore/renovate-config-tunnckocore",
   "author": "Charlike Mike Reagent <@tunnckoCore> (https://i.am.charlike.online)",
@@ -32,13 +32,13 @@
         ":automergeLinters",
         ":unpublishSafeDisabled",
         ":maintainLockFilesDisabled",
-        ":gitSignOff",
         ":rebaseStalePrs",
         ":semanticCommits",
         ":labels(deps, renovate)",
         ":assignAndReview(charlike)"
       ],
-      "prHourlyLimit": 10
+      "prHourlyLimit": 10,
+      "commitBody": "Signed-off-by: Charlike Mike Reagent <olsten.larck@gmail.com>"
     }
   }
 }
