@@ -23,7 +23,7 @@
       "extends": [
         "config:base",
         ":onlyNpm",
-        ":pinOnlyDevDependencies",
+        ":preserveSemverRanges",
         ":prNotPending",
         ":prConcurrentLimit20",
         ":automergeMajor",
