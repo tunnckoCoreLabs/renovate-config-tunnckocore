@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-tunnckocore",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Renovate Shareable config for @tunnckoCore organization",
   "repository": "tunnckoCore/renovate-config-tunnckocore",
   "author": "Charlike Mike Reagent <@tunnckoCore> (https://i.am.charlike.online)",
