@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-tunnckocore",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Renovate Shareable config for @tunnckoCore organization",
   "repository": "tunnckoCore/renovate-config-tunnckocore",
   "author": "Charlike Mike Reagent <@tunnckoCore> (https://i.am.charlike.online)",
@@ -23,7 +23,7 @@
       "extends": [
         "config:base",
         ":onlyNpm",
-        ":pinVersions",
+        ":pinOnlyDevDependencies",
         ":prNotPending",
         ":prConcurrentLimit20",
         ":automergeMajor",
@@ -35,7 +35,7 @@
         ":rebaseStalePrs",
         ":semanticCommits",
         ":labels(deps, renovate)",
-        ":assignAndReview(charlike)"
+        ":assignAndReview(olstenlarck)"
       ],
       "prHourlyLimit": 10,
       "commitBody": "Signed-off-by: Charlike Mike Reagent <olsten.larck@gmail.com>"
