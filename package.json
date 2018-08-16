@@ -35,10 +35,10 @@
         ":rebaseStalePrs",
         ":semanticCommits",
         ":labels(deps, renovate)",
-        ":assignAndReview(olstenlarck)"
+        ":assignAndReview(olstenlarck)",
+        ":gitSignOff"
       ],
-      "prHourlyLimit": 10,
-      "commitBody": "Signed-off-by: Charlike Mike Reagent <olsten.larck@gmail.com>"
+      "prHourlyLimit": 10
     }
   }
 }
