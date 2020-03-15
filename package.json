@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-tunnckocore",
-  "version": "0.4.3",
+  "version": "1.0.0",
   "description": "Renovate Shareable config for @tunnckoCore organization",
   "repository": "tunnckoCore/renovate-config-tunnckocore",
   "author": "Charlike Mike Reagent <@tunnckoCore> (https://i.am.charlike.online)",
@@ -21,24 +21,8 @@
   "renovate-config": {
     "default": {
       "extends": [
-        "config:base",
-        ":onlyNpm",
-        ":preserveSemverRanges",
-        ":prNotPending",
-        ":prConcurrentLimit20",
-        ":automergeMajor",
-        ":automergeBranchPush",
-        ":automergePr",
-        ":automergeLinters",
-        ":unpublishSafeDisabled",
-        ":maintainLockFilesDisabled",
-        ":rebaseStalePrs",
-        ":semanticCommits",
-        ":labels(deps, renovate)",
-        ":assignAndReview(olstenlarck)",
-        ":gitSignOff"
-      ],
-      "prHourlyLimit": 10
+        "@tunnckocore"
+      ]
     }
   }
 }
